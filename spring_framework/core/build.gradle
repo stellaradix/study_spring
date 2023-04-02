@@ -10,6 +10,9 @@ targetCompatibility = JavaVersion.VERSION_17
 
 dependencies {
 
+	// Spring Framework 5
+	implementation 'org.springframework:spring-context:5.+'
+
 	// JUnit5 - Test Library
 	testImplementation platform('org.junit:junit-bom:5.+')
 	testImplementation 'org.junit.jupiter:junit-jupiter'
